@@ -1,8 +1,6 @@
 body {
-    background-image: url(../../img/Background.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: cover;
+    background-color: #9eb3bf;
+    background-image: none;
 }
 
 
@@ -19,7 +17,7 @@ body {
 
 .form-signin {
     width: 100%;
-    max-width: 330px;
+    max-width: 870px;
     padding: 15px;
     margin: auto;
 }
@@ -35,6 +33,7 @@ body {
     padding: 10px;
     font-size: 16px;
     border: black solid 1px;
+    width: 250px;
 }
 
 .form-signin .form-control:focus {
@@ -85,7 +84,31 @@ input {
     color: white;
 }
 
+select.form-control:not([size]):not([multiple]) {
+    height: calc(3.25rem + 2px);
+}
 
+.skip-button {
+    margin-top: 18px;
+    padding: 0;
 
+}
 
-  
+.submit-button {
+    padding: 0;
+}
+
+.images {
+    max-width: 40%;
+}
+
+.welcome-selection {
+    margin-top:121px;
+}
+
+.welcome-selection p {
+    color: white;
+    padding-top: 28px;
+    font-size: 2em;
+    text-decoration: underline;
+}
