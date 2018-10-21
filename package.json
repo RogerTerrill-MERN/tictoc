@@ -1,0 +1,21 @@
+{
+    "name": "tictoc",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js"
+    },
+    "author": "Roger Terrill",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "mongoose": "^5.3.4",
+        "validator": "^10.8.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.4"
+    }
+}
