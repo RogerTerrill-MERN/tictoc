@@ -1,3 +1,6 @@
+
+
+
 .sign-in-container {
     display: -ms-flexbox;
     display: flex;
@@ -27,6 +30,7 @@
     padding: 10px;
     font-size: 16px;
     border: black solid 1px;
+    width: 250px;
 }
 
 .form-signin .form-control:focus {
@@ -71,8 +75,22 @@ input[type='number']::-webkit-outer-spin-button {
 
 input {
     text-align: center
-}
+  }
 
 .title {
     color: white;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(3.25rem + 2px);
+}
+
+.skip-button {
+    margin-top: 18px;
+    padding: 0;
+
+}
+
+.submit-button {
+    padding: 0;
 }

@@ -82,6 +82,7 @@ class VictimInfo extends Component {
                         </div>
                         <div className="col-md-12 submit-button">
                             <input
+                                onClick={() => this.props.history.push("/welcome")}
                                 type="submit"
                                 class="btn btn-primary btn-block"
                                 value="Submit"
@@ -89,6 +90,7 @@ class VictimInfo extends Component {
                         </div>
                         <div className="col-md-12 skip-button">
                             <input
+                                onClick={() => this.props.history.push("/report")}
                                 type="url"
                                 class="btn btn-secondary btn-block"
                                 value="Skip"
